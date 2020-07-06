@@ -1,0 +1,7 @@
+Support Vector Machine
+   1.A support vector machine (SVM) is a supervised machine learning model objective with the to find a hyperplane in an N-dimensional space(N — the number of features)
+     that distinctly classifies the data points.
+   2.To separate the two classes of data points, there are many possible hyperplanes that could be chosen. 
+     Our objective is to find a plane that has the maximum margin, i.e the maximum distance between data points of both classes.  
+   3.Hyperplanes are decision boundaries that help classify the data points. Data points falling on either side of the hyperplane can be attributed to different classes.   
+
