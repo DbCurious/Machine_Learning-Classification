@@ -1,0 +1,11 @@
+    a.A decision tree is a supervised machine learning model used to predict a target by learning decision rules from features. 
+    b.As the name suggests, we can think of this model as breaking down our data by making a decision based on asking a series of questions.
+    c.Decision-tree algorithm falls under the category of supervised learning algorithms. It works for both continuous as well as categorical output variables.
+    d.The branches/edges represent the result of the node and the nodes have either:  
+       a.Conditions [Decision Nodes]
+       b.Result [End Nodes]
+  
+    e.Decision tree observes features of an object and trains a model in the structure of a tree to predict data in the future to produce meaningful continuous output. 
+    f.Continuous output means that the output/result is not discrete, i.e., it is not represented just by a discrete, known set of numbers or values.
+    g.Using the decision algorithm, we start at the tree root and split the data on the feature that results in the largest information gain (IG) 
+      (reduction in uncertainty towards the final decision).
