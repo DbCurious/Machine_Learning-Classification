@@ -1,0 +1,6 @@
+1. Accuracy, Precision, and Recall:
+
+  A. Accuracy
+     1.Accuracy is the proportion of true results among the total number of cases examined.
+     2.Accuracy is a valid choice of evaluation for classification problems which are well balanced and not skewed or No class imbalance.
+       Accuracy = (TP+TN)/(TP+FP+FN+TN)
