@@ -26,3 +26,9 @@ d.False Negatives (FN) – When actual class is yes but predicted class in no.
      1.Precision is the ratio of correctly predicted positive observations to the total predicted positive observations. 
      2.Precision helps when the costs of false positives are high.
        Precision =( TP/TP+FP)
+       
+  C. Recall
+     1.Of all the records which are actually positive, what fraction did we correctly predicted as positive?     
+       Recall=(TP/TP+FN)
+     2.It is a very common situation where we end up with a model where either Precision is high and Recall is low or vice versa.
+       It becomes a little difficult with two metrics to evaluate the model and say which is better.  
