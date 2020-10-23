@@ -3,5 +3,9 @@ Support Vector Machine
      that distinctly classifies the data points.
    2.To separate the two classes of data points, there are many possible hyperplanes that could be chosen. 
      Our objective is to find a plane that has the maximum margin, i.e the maximum distance between data points of both classes.  
-   3.Hyperplanes are decision boundaries that help classify the data points. Data points falling on either side of the hyperplane can be attributed to different classes.   
+   3.Hyperplanes are decision boundaries that help classify the data points. Data points falling on either side of the hyperplane can be attributed to different classes,
+     the dimension of the hyperplane depends upon the number of features. If the number of input features is 2, then the hyperplane is just a line. If the number of input 
+     features is 3, then the hyperplane becomes a two-dimensional plane.
+   4.Support vectors are data points that are closer to the hyperplane and influence the position and orientation of the hyperplane.Deleting the support vectors will change
+     the position of the hyperplane. These are the points that help build SVM.
 
