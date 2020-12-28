@@ -6,4 +6,6 @@ A large number of relatively uncorrelated models (trees) operating as a committe
 So the prerequisites for random forest to perform well are:
    a.There needs to be some actual signal in our features so that models built using those features do better than random guessing.
    b.The predictions (and therefore the errors) made by the individual trees need to have low correlations with each other.
+The random forest is a classification algorithm consisting of many decisions trees. It uses bagging and feature randomness when building each individual tree to try 
+   to create an uncorrelated forest of trees whose prediction by committee is more accurate than that of any individual tree.   
 
