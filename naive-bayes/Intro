@@ -7,3 +7,4 @@ Naive Bayes Algorithm
       Multinomial Naive Bayes
       Bernoulli Naive Bayes
       Gaussian Naive Bayes:
+    If continuous features do not have normal distribution, we should use transformation or different methods to convert it in normal distribution.  
