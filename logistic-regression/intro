@@ -1,5 +1,9 @@
 1.Logistic regression is the appropriate regression analysis to conduct when the dependent variable is binary.
-2.  Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables.
-3.The logistic function is defined as:
+2.Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables.
+3.Logistic Regression models are classification models; specifically binary classification models (they can only be used to distinguish between 2 different categories 
+4.In Logistic Regression, we don’t directly fit a straight line to our data like in linear regression. Instead, we fit a S shaped curve, called Sigmoid
+5.The logistic function is defined as:
                                     transformed = 1 / (1 + e^-x)
               Where e is the numerical constant Euler’s number and x is a input we plug into the function.
+            
+            
